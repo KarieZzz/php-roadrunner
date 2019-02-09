@@ -31,4 +31,4 @@ RUN curl -o composer-setup.php https://getcomposer.org/installer \
 
 WORKDIR /var/www
 
-ENTRYPOINT ["/usr/local/bin/rr", "serve", "-d", "-c", "/etc/roadrunner/roadrunner.yaml"]
+ENTRYPOINT ["/usr/local/bin/rr", "serve", "-d", "-c", "/etc/roadrunner/.rr.yml"]
