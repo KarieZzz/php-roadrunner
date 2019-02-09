@@ -74,10 +74,10 @@
             "@init-config"
         ],
         "reset-workers": [
-            "docker exec roadrunner rr -c /etc/roadrunner/.rr.yaml http:reset"
+            "docker exec roadrunner rr -c /etc/roadrunner/roadrunner.yaml http:reset"
         ],
         "show-workers": [
-            "docker exec roadrunner rr -c /etc/roadrunner/.rr.yaml http:workers -i"
+            "docker exec roadrunner rr -c /etc/roadrunner/roadrunner.yaml http:workers -i"
         ]
     },
     "conflict": {
